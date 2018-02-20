@@ -1,5 +1,9 @@
-function FizzBuzz() {
-}
+var FizzBuzz = function() {
+};
+
+var fizzBuzz = new FizzBuzz();
+
+console.log(FizzBuzz);
 
 FizzBuzz.prototype.play = function(number) {
   if (this._isDivisibleBy(15, number)) {
